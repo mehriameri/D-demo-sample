@@ -1,0 +1,50 @@
+[
+    {
+        "img": "images/offerBox/monitor.jpg",
+        "newPrice": "4,055,000",
+        "oldPrice": "4,770,000",
+        "offPercent": "15%"
+    },
+    {
+        "img": "images/offerBox/book.jpg",
+        "newPrice": "20,500",
+        "oldPrice": "30,500",
+        "offPercent": "33%"
+    },
+    {
+        "img": "images/offerBox/cream.jpg",
+        "newPrice": "450,000",
+        "oldPrice": "600,000",
+        "offPercent": "25%"
+    },
+    {
+        "img": "images/offerBox/camera.jpg",
+        "newPrice": "4,055,000",
+        "oldPrice": "4,770,000",
+        "offPercent": "15%"
+    },
+    {
+        "img": "images/offerBox/phone.jpg",
+        "newPrice": "9,500,000",
+        "oldPrice": "15,500,000",
+        "offPercent": "33%"
+    },
+    {
+        "img": "images/offerBox/ring.jpg",
+        "newPrice": "500,000",
+        "oldPrice": "800,000",
+        "offPercent": "33%"
+    },
+    {
+        "img": "images/offerBox/bag.jpg",
+        "newPrice": "450,000",
+        "oldPrice": "600,000",
+        "offPercent": "25%"
+    },
+    {
+        "img": "images/offerBox/book2.jpg",
+        "newPrice": "200,000",
+        "oldPrice": "300,000",
+        "offPercent": "33%"
+    }
+]

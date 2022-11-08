@@ -1,0 +1,44 @@
+  .swiper-pagination {
+    position: absolute;
+    display: flex;
+    right: 40px !important;
+    bottom: 20px !important;
+  }
+  .swiper-pagination-bullet {
+    width: 5px !important;
+    height: 5px !important;
+  }
+  .swiper-pagination-bullet-active {
+    display: flex !important;
+    background-color: white !important;
+    width: 14px !important;
+    height: 5px !important;
+    border-radius: 2px;
+    transition: all 0.3s linear !important;
+    gap: 2px !important;
+  }
+  .swiper-button-next::after {
+    display: none;
+  }
+  .swiper-button-prev::after {
+    display: none;
+  }
+
+.swiper-button-next,.swiper-button-prev {
+  top: 50%;
+  background-image: url("https://img.icons8.com/ios-filled/50/000000/less-than.png");
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid rgb(196, 192, 192);
+  border-radius: 50%;
+  outline: 0;
+  transition: background-color .2s ease, color .2s ease;
+  z-index: 100;
+}
+.swiper-button-prev{
+  background-image: url("https://img.icons8.com/ios-filled/50/000000/more-than.png");
+}

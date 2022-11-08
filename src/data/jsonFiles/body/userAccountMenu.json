@@ -1,0 +1,26 @@
+[
+    {
+        "title": "خارج از دسترس",
+        "icon": "images/userAccount/red-circle.png"
+    },
+    {
+        "title": "دیجی‌کلاب",
+        "icon": "images/userAccount/club-point.svg"
+    },
+    {
+        "title": "سفارش‌ها",
+        "icon": "images/userAccount/shopping-bag.png"
+    },
+    {
+        "title": "لیست‌ها",
+        "icon": "images/userAccount/heart.png"
+    },
+    {
+        "title": "دیدگاه‌ها",
+        "icon": "images/userAccount/topic.png"
+    },
+    {
+        "title": "خروج از حساب کاربری",
+        "icon": "images/userAccount/exit.png"
+    }
+]

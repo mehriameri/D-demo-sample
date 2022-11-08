@@ -1,0 +1,46 @@
+[
+    {
+        "title": "کالای دیجیتال",
+        "img": "images/categories/Digital.png"
+    },
+    {
+        "title": "موبایل",
+        "img": "images/categories/Mobile.png"
+    },
+    {
+        "title": "خودرو، ابزار و تجهیزات صنعتی",
+        "img": "images/categories/Equipment.png"
+    },
+    {
+        "title": "مد و پوشاک",
+        "img": "images/categories/Clothes.png"
+    },
+    {
+        "title": "کالاهای سوپرمارکتی",
+        "img": "images/categories/Supermarket.png"
+    },
+    {
+        "title": "اسباب بازی، کودک و نوزاد",
+        "img": "images/categories/Toies.png"
+    },
+    {
+        "title": "محصولات بومی و محلی",
+        "img": "images/categories/Traditional.png"
+    },
+    {
+        "title": "زیبایی و سلامت",
+        "img": "images/categories/Beauty.png"
+    },
+    {
+        "title": "خانه و آشپزخانه",
+        "img": "images/categories/Kitchen.png"
+    },
+    {
+        "title": "کتاب، لوازم تحریر و هنر",
+        "img": "images/categories/Books.png"
+    },
+    {
+        "title": "ورزش و سفر",
+        "img": "images/categories/Sport.png"
+    }
+]

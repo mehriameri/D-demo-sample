@@ -1,0 +1,25 @@
+[
+    {
+        "img": "images/offerSupermarket/rice.jpg",
+        "offPercent": "31%"
+    },
+    {
+        "img": "images/offerSupermarket/doogh.jpg",
+        "offPercent": "11%"
+    },
+    {
+        "img": "images/offerSupermarket/limon.jpg",
+        "offPercent": "30%"
+    },
+    {
+        "img":"images/offerSupermarket/shampoo.jpg",
+        "offPercent": "24%"
+    },
+    {
+        "img":"images/offerSupermarket/lubia.jpg",
+        "offPercent": "18%"
+    },{
+        "img":"images/offerSupermarket/rice.jpg",
+        "offPercent": "28%"
+    }
+]

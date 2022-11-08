@@ -1,0 +1,26 @@
+[
+    {
+        "title": "پربازدیدترین",
+        "sortBy": "rate"
+    },
+    {
+        "title": "جدیدترین",
+        "sortBy": "id"
+    },
+    {
+        "title": "پرفروش‌ترین",
+        "sortBy": "rate"
+    },
+    {
+        "title": "ارزن‌ترین",
+        "sortBy": "price"
+    },
+    {
+        "title": "گران‌ترین",
+        "sortBy": "price"
+    },
+    {
+        "title": "پیشنهاد خریداران",
+        "sortBy": "id"
+    }
+]

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url(assets/fonts/Yekan/Yekan.css);
+
+body {
+  max-width: 1900px;
+  margin: auto;
+  font-family: 'Yekan';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}

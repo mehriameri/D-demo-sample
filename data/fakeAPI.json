@@ -1,0 +1,961 @@
+{
+    "categoryList": [
+        {
+            "title": "نان",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/112748421.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+        },
+        {
+            "title": "قند و نبات",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/111999265.png?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60"
+        },
+        {
+            "title": "شکر",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/c7dc243f4fec817186fba069699ece211805ad10_1636958730.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60"
+        },
+        {
+            "title": "حبوبات و سویا",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/2272072.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60"
+        },
+        {
+            "title": "رب",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/1209684.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60"
+        },
+        {
+            "title": "غلات",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/1200175.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60"
+        },
+        {
+            "title": "ماکارانی",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/a71582401ee8ea3a64faacdcb6f6a90af5b0d274_1658206463.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60"
+        },
+        {
+            "title": "روغن",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/2d68c6b7befcd5030f645eb229e8df06e244e07b_1596621224.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60"
+        },
+        {
+            "title": "برنج",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/2439525.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "category": "نان",
+            "title": "نان تست سبوس سه نان مقدار 530 گرم",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/0bb03161fdcd6ad49163353f7950ecf2ca0143df_1637760285.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "rate": "4.2",
+            "deliveryInfo": "",
+            "storeInfo": "موجود در انبار دیجی‌کالا",
+            "storeName": "دیجی کالا",
+            "specialInfo": "",
+            "price": "25000",
+            "oldPrice": "",
+            "starPrice": "500",
+            "offPercent": "",
+            "Advertisement": ""
+        },
+        {
+            "id": 2,
+            "category": "شکر",
+            "title": "شکر قهوه‌ای قندانه - 530 گرم",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/769150581a5f1facf3b736e003a6aae3ff399162_1612960969.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "deliveryInfo": "ارسال سریع سوپرمارکتی",
+            "storeInfo": "موجود در انبار فروشنده",
+            "storeName": "",
+            "specialInfo": "",
+            "price": "32000",
+            "oldPrice": "37000",
+            "starPrice": "640",
+            "rate": "4.2",
+            "offPercent": "14",
+            "Advertisement": ""
+        },
+        {
+            "id": 3,
+            "category": "روغن",
+            "title": "روغن نیمه جامد لادن - 5 کیلوگرم",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/ee3d9a63e5de881d9ee212a51efafe3c96df2ec2_1652620920.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "deliveryInfo": "ارسال سریع سوپرمارکتی",
+            "storeInfo": "",
+            "storeName": "دیجی‌کالا",
+            "specialInfo": "",
+            "price": "351900",
+            "oldPrice": "365400",
+            "starPrice": "7038",
+            "rate": "4.4",
+            "offPercent": "4",
+            "Advertisement": "yes"
+        },
+        {
+            "id": 4,
+            "category": "قند و نبات",
+            "title": "نبات زعفرانی مصطفوی مقدار 700 گرم",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/111999208.png?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "deliveryInfo": "",
+            "storeInfo": "موجود در انبار دیجی‌کالا",
+            "storeName": "",
+            "specialInfo": "",
+            "price": "69300",
+            "oldPrice": "87700",
+            "starPrice": "1386",
+            "rate": "4.2",
+            "offPercent": "21",
+            "Advertisement": "yes"
+        },
+        {
+            "id": 5,
+            "category": "برنج",
+            "title": "برنج شکسته طارم معطر گلستان - 4.5 کیلوگرم",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/33c369a82b613badd2b4b20fc810ff15bc535869_1601119232.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "deliveryInfo": "ارسال سریع سوپرمارکتی",
+            "storeInfo": "",
+            "storeName": "",
+            "specialInfo": "",
+            "price": "377800",
+            "oldPrice": "",
+            "starPrice": "7556",
+            "rate": "4.1",
+            "offPercent": "",
+            "Advertisement": ""
+        },
+        {
+            "id": 6,
+            "category": "رب",
+            "title": "رب گوجه فرنگی چین‌چین- 800 گرم",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/ebb3cda4de4532746638bcf64db1aa24ea2ac4e0_1657543901.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "deliveryInfo": "ارسال سریع سوپرمارکتی",
+            "storeInfo": "",
+            "storeName": "",
+            "specialInfo": "",
+            "price": "45000",
+            "oldPrice": "",
+            "starPrice": "900",
+            "rate": "4.3",
+            "offPercent": "",
+            "Advertisement": ""
+        },
+        {
+            "id": 7,
+            "category": "حبوبات و سویا",
+            "title": "لپه گلستان مقدار 450 گرم",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/2815265.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "deliveryInfo": "ارسال سریع سوپرمارکتی",
+            "storeInfo": "",
+            "storeName": "",
+            "specialInfo": "",
+            "price": "36400",
+            "oldPrice": "",
+            "starPrice": "728",
+            "rate": "4.2",
+            "offPercent": "",
+            "Advertisement": "yes"
+        },
+        {
+            "id": 8,
+            "category": "شکر",
+            "title": "شکر سفید کامکا - 1 کیلوگرم",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/ba8e38b15efb5d57b4bc1b14e5fb418c51161418_1659521958.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "deliveryInfo": "ارسال سریع سوپرمارکتی",
+            "storeInfo": "",
+            "storeName": "",
+            "specialInfo": "",
+            "price": "23230",
+            "oldPrice": "",
+            "starPrice": "464",
+            "rate": "4.3",
+            "offPercent": "",
+            "Advertisement": ""
+        },
+        {
+            "id": 9,
+            "category": "ماکارانی",
+            "title": "ماکارانی پیکولی زر ماکارون مقدار 500 گرم",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/a71582401ee8ea3a64faacdcb6f6a90af5b0d274_1658206463.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "deliveryInfo": "ارسال سریع سوپرمارکتی",
+            "storeInfo": "",
+            "storeName": "",
+            "specialInfo": "پیشنهاد شگفت‌انگیز",
+            "price": "16500",
+            "oldPrice": "19800",
+            "starPrice": "330",
+            "rate": "4.3",
+            "offPercent": "17",
+            "Advertisement": "yes"
+        },
+        {
+            "id": 10,
+            "category": "روغن",
+            "title": "روغن مایع آفتابگردان ویتامینه لادن - 810 گرم",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/bcf51497ac01a89cd5172121d9cbe83412abb2fc_1653726308.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "deliveryInfo": "",
+            "storeInfo": "موجود در انبار دیجی‌کالا",
+            "storeName": "",
+            "specialInfo": "",
+            "price": "54900",
+            "oldPrice": "",
+            "starPrice": "1188",
+            "rate": "4.3",
+            "offPercent": "",
+            "Advertisement": ""
+        },
+        {
+            "id": 11,
+            "category": "حبوبات و سویا",
+            "title": "سویا پروتین گلستان مقدار 250 گرم",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/2272072.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "deliveryInfo": "ارسال سریع سوپرمارکتی",
+            "storeInfo": "",
+            "storeName": "دیجی‌کالا",
+            "specialInfo": "",
+            "price": "19900",
+            "oldPrice": "",
+            "starPrice": "398",
+            "rate": "4.1",
+            "offPercent": "",
+            "Advertisement": ""
+        },
+        {
+            "id": 12,
+            "category": "قند و نبات",
+            "title": "حبه بدون شکر بیلو - 250 گرم",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/4dd057b5deca9e0b281f63268f4649a4c8ebe347_1599747008.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "deliveryInfo": "ارسال فروشنده",
+            "storeInfo": "موجود در انبار دیجی‌کالا",
+            "storeName": "",
+            "specialInfo": "فروش ویژه",
+            "price": "52000",
+            "oldPrice": "",
+            "starPrice": "1040",
+            "rate": "4.1",
+            "offPercent": "",
+            "Advertisement": ""
+        },
+        {
+            "id": 13,
+            "category": "غلات",
+            "title": "آرد گندم قنادی رویسا - 1000 گرم",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/78916706ee3ebe60e95ff1070304a76f7f719e5b_1600231170.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "deliveryInfo": "",
+            "storeInfo": "موجود در انبار دیجی‌کالا",
+            "storeName": "",
+            "specialInfo": "",
+            "price": "34900",
+            "oldPrice": "",
+            "starPrice": "658",
+            "rate": "4.3",
+            "offPercent": "",
+            "Advertisement": ""
+        },
+        {
+            "id": 14,
+            "category": "برنج",
+            "title": "برنج طارم ممتاز گلستان - 10 کیلوگرم",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/33c369a82b613badd2b4b20fc810ff15bc535869_1601119232.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "deliveryInfo": "ارسال سریع سوپرمارکتی",
+            "storeInfo": "",
+            "storeName": "",
+            "specialInfo": "",
+            "price": "1429000",
+            "oldPrice": "",
+            "starPrice": "28580",
+            "rate": "4.2",
+            "offPercent": "",
+            "Advertisement": ""
+        },
+        {
+            "id": 15,
+            "category": "نان",
+            "title": "نان تست هفت غله سه نان مقدار 530 گرم",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/112748421.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "deliveryInfo": "ارسال سریع سوپرمارکتی",
+            "storeInfo": "",
+            "storeName": "",
+            "specialInfo": "",
+            "price": "35000",
+            "oldPrice": "",
+            "starPrice": "700",
+            "rate": "4.3",
+            "offPercent": "",
+            "Advertisement": ""
+        },
+        {
+            "id": 16,
+            "category": "غلات",
+            "title": "گرانولا اوریگامی 380 گرم",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/7a05dc242964e92ddd5ba81c5ae8e714ec900fe9_1641362054.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "deliveryInfo": "",
+            "storeInfo": "موجود در انبار دیجی‌کالا",
+            "storeName": "دیجی‌کالا",
+            "specialInfo": "",
+            "price": "108000",
+            "oldPrice": "",
+            "starPrice": "2160",
+            "rate": "4.2",
+            "offPercent": "",
+            "Advertisement": "yes"
+        },
+        {
+            "id": 17,
+            "category": "رب",
+            "title": "رب گوجه‌فرنگی طبیعت - 1.5 کیلوگرم",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/e8803e023098ee730555719ac9b1977c21e53e03_1608364290.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "deliveryInfo": "ارسال سریع سوپرمارکتی",
+            "storeInfo": "",
+            "storeName": "",
+            "specialInfo": "فروش ویژه",
+            "price": "73300",
+            "oldPrice": "81500",
+            "starPrice": "1466",
+            "rate": "4.3",
+            "offPercent": "",
+            "Advertisement": ""
+        },
+        {
+            "id": 18,
+            "category": "حبوبات و سویا",
+            "title": "لوبیا چیتی گلستان مقدار 900 گرم",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/2499932.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "deliveryInfo": "ارسال فروشنده",
+            "storeInfo": "موجود در انبار دیجی‌کالا",
+            "storeName": "دیجی‌کالا",
+            "specialInfo": "",
+            "price": "88900",
+            "oldPrice": "95900",
+            "starPrice": "1778",
+            "rate": "4.2",
+            "offPercent": "7",
+            "Advertisement": ""
+        },
+        {
+            "id": 19,
+            "category": "قند و نبات",
+            "title": "نبات زعفرانی مصطفوی - 320 گرم بسته 24 عددی",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/b01054f201deadcd9551cedab7d6b7d96368f6ac_1618990560.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "deliveryInfo": "ارسال فروشنده",
+            "storeInfo": "موجود در انبار فروشنده",
+            "storeName": "",
+            "specialInfo": "",
+            "price": "69900",
+            "oldPrice": "",
+            "starPrice": "1398",
+            "rate": "4.3",
+            "offPercent": "",
+            "Advertisement": ""
+        },
+        {
+            "id": 20,
+            "category": "نان",
+            "title": "نان تست سبوس سه نان مقدار 530 گرم",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/3590981.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "rate": "4.3",
+            "deliveryInfo": "ارسال سریع سوپرمارکتی",
+            "storeInfo": "",
+            "storeName": "",
+            "specialInfo": "فروش ویژه",
+            "price": "15290",
+            "oldPrice": "16990",
+            "starPrice": "305",
+            "offPercent": "10",
+            "Advertisement": ""
+        },
+        {
+            "id": 21,
+            "category": "شکر",
+            "title": "پودر شیرین‌کننده کم کالری بیلو - 250 گرم",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/8448b026b2749e661b7a27d5c8e60771129952af_1599750411.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "deliveryInfo": "",
+            "storeInfo": "موجود در انبار دیجی‌کالا",
+            "storeName": "",
+            "specialInfo": "",
+            "price": "72000",
+            "oldPrice": "84000",
+            "starPrice": "257",
+            "rate": "4.2",
+            "offPercent": "14",
+            "Advertisement": "yes"
+        },
+        {
+            "id": 22,
+            "category": "حبوبات و سویا",
+            "title": "عدس گلستان مقدار 900 گرم",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/2543547.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "deliveryInfo": "ارسال سریع سوپرمارکتی",
+            "storeInfo": "موجود در انبار فروشنده",
+            "storeName": "",
+            "specialInfo": "",
+            "price": "74900",
+            "oldPrice": "75900",
+            "starPrice": "1498",
+            "rate": "4.2",
+            "offPercent": "1",
+            "Advertisement": ""
+        },
+        {
+            "id": 23,
+            "category": "رب",
+            "title": "رب گوجه‌فرنگی سحر - 680 گرم",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/119865684.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "deliveryInfo": "ارسال سریع سوپرمارکتی",
+            "storeInfo": "",
+            "storeName": "",
+            "specialInfo": "",
+            "price": "43900",
+            "oldPrice": "",
+            "starPrice": "",
+            "rate": "4.2",
+            "offPercent": "",
+            "Advertisement": ""
+        },
+        {
+            "id": 24,
+            "category": "غلات",
+            "title": "بلغور گندم گلستان - 900 گرم",
+            "img": "https://dkstatics-public.digikala.com/digikala-products/ecf43e21dcee1fc300daadbbb808f9dc399d196e_1597664696.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+            "deliveryInfo": "ارسال سریع سوپرمارکتی",
+            "storeInfo": "",
+            "storeName": "",
+            "specialInfo": "",
+            "price": "32940",
+            "oldPrice": "",
+            "starPrice": "658",
+            "rate": "4.3",
+            "offPercent": "",
+            "Advertisement": ""
+        }
+    ],
+    "megaMenuList": [
+        {
+            "id": "100",
+            "mainTitle": "همه کالاهای سوپرمارکتی",
+            "title": "کالاهای سوپرمارکتی",
+            "icon": "https://img.icons8.com/ios/50/000000/ingredients.png",
+            "path": "/product",
+            "subMenu": [
+                {
+                    "id": "1001",
+                    "title": "کالاهای اساسی و خواروبار",
+                    "data": [
+                        "نان",
+                        "برنج",
+                        "شکر",
+                        "روغن",
+                        "سس",
+                        "قند",
+                        "رب گوجه فرنگی",
+                        "ماکارانی و پاستا",
+                        "حبوبات و سویا"
+                    ]
+                },
+                {
+                    "id": "1002",
+                    "title": "صبحانه",
+                    "data": [
+                        "مربا",
+                        "عسل",
+                        "حلوا شکری"
+                    ]
+                },
+                {
+                    "id": "1003",
+                    "title": "مواد پروتئینی",
+                    "data": [
+                        "سوسیس و کالباس",
+                        "گوشت گوسفند",
+                        "گوشت مرغ",
+                        "گوشت گاو",
+                        "تخم مرغ",
+                        "میگو",
+                        "ماهی",
+                        "تن ماهی"
+                    ]
+                },
+                {
+                    "id": "1004",
+                    "title": "لبنیات",
+                    "data": [
+                        "شیر",
+                        "ماست",
+                        "پنیر",
+                        "خامه"
+                    ]
+                },
+                {
+                    "id": "1005",
+                    "title": "نوشیدنی‌ها ",
+                    "data": [
+                        "چای",
+                        "دمنوش",
+                        "قهوه",
+                        "آب وآب معدنی",
+                        "نوشابه",
+                        "دوغ",
+                        "شربت و آبمیوه"
+                    ]
+                },
+                {
+                    "id": "1006",
+                    "title": "میوه و سبزی",
+                    "data": []
+                },
+                {
+                    "id": "1006",
+                    "title": "غذای آماده و نودل",
+                    "data": []
+                },
+                {
+                    "id": "1007",
+                    "title": "کنسرو و کمپوت",
+                    "data": []
+                },
+                {
+                    "id": "1007",
+                    "title": "تنقلات",
+                    "data": [
+                        "شکلات، تافی و آبنبات",
+                        "بیسکویت و ویفر",
+                        "مغز طعم‌دار خشکبار",
+                        "کیک و کلوچه",
+                        "چیپس و پاپ کورن",
+                        "آدامس و خوشبوکننده"
+                    ]
+                },
+                {
+                    "id": "1007",
+                    "title": "خشکبار و شیرینی",
+                    "data": []
+                }
+            ]
+        },
+        {
+            "id": "200",
+            "mainTitle": "همه کالاهای دیجیتال",
+            "title": "کالاهای دیجیتال",
+            "icon": "https://img.icons8.com/material-outlined/24/000000/laptop.png",
+            "path": "/",
+            "subMenu": [
+                {
+                    "id": "2001",
+                    "title": " لوازم جانبی گوشی",
+                    "data": [
+                        "کیف و کاور گوشی",
+                        " پاور بانک (شارژر همراه)",
+                        " پایه نگهدارنده گوشی"
+                    ]
+                },
+                {
+                    "id": "2002",
+                    "title": "گوشی موبایل",
+                    "data": [
+                        "اپل",
+                        "سامسونگ",
+                        "هوآوی",
+                        "شیائومی",
+                        "آنر",
+                        "نوکیا"
+                    ]
+                },
+                {
+                    "id": "2003",
+                    "title": "واقعیت مجازی",
+                    "data": []
+                },
+                {
+                    "id": "2004",
+                    "title": "مچ‌بند و ساعت هوشمند",
+                    "data": []
+                },
+                {
+                    "id": "2005",
+                    "title": "هدفون، هدست، هندزفری",
+                    "data": []
+                },
+                {
+                    "id": "2006",
+                    "title": "اسپیکر بلوتوث و با سیم",
+                    "data": []
+                },
+                {
+                    "id": "2007",
+                    "title": "هارد، فلش و SSD",
+                    "data": []
+                },
+                {
+                    "id": "2008",
+                    "title": "دوربین",
+                    "data": [
+                        "دوربین عکاسی دیجیتال",
+                        "دوربین‌ ورزشی و فیلم برداری",
+                        "دوربین‌ چاپ سریع"
+                    ]
+                },
+                {
+                    "id": "2009",
+                    "title": "لوازم جانبی دوربین",
+                    "data": [
+                        "لنز",
+                        "کیف",
+                        "کارت حافظه",
+                        "کاغذ چاپ عکس"
+                    ]
+                },
+                {
+                    "id": "2010",
+                    "title": "دوربین دو چشمی و شکاری",
+                    "data": []
+                },
+                {
+                    "id": "2011",
+                    "title": "تلسکوپ",
+                    "data": []
+                },
+                {
+                    "id": "2012",
+                    "title": "پلی استیشن، ایکس باکس و بازی",
+                    "data": []
+                },
+                {
+                    "id": "2013",
+                    "title": "کامپیوتر و تجهیزات جانبی",
+                    "data": [
+                        "تجهیزات مخصوص بازی",
+                        "مانیتور",
+                        "کیس‌های اسمبل شده",
+                        "قطعات داخلی کامپیوتر",
+                        "ماوس",
+                        "کیبورد"
+                    ]
+                },
+                {
+                    "id": "2014",
+                    "title": "لپ تاپ",
+                    "data": []
+                },
+                {
+                    "id": "2015",
+                    "title": "لوازم جانبی لپ تاپ",
+                    "data": [
+                        "کیف، کوله و کاور",
+                        "کابل‌ صدا، AUX و HDMI"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "300",
+            "mainTitle": "همه خودرو، ابزار، تجهیزات صنعتی",
+            "title": "خودرو، ابزار، تجهیزات صنعتی",
+            "icon": "https://img.icons8.com/material-outlined/24/000000/open-end-wrench.png",
+            "path": "/",
+            "subMenu": [
+                {
+                    "id": "3001",
+                    "title": "خودروهای ایرانی و خارجی",
+                    "data": []
+                },
+                {
+                    "id": "3002",
+                    "title": "موتور سیکلت",
+                    "data": []
+                },
+                {
+                    "id": "3003",
+                    "title": "لوازم جانبی خودرو و موتورسیکلت",
+                    "data": [
+                        "لوازم تزیینی",
+                        "سیستم صوتی و تصویری",
+                        "نظافت و نگهداری خودرو",
+                        "کلاه کاسکت و لوازم جانبی موتور"
+                    ]
+                },
+                {
+                    "id": "3004",
+                    "title": "لوازم یدکی خودرو و موتورسیکلت",
+                    "data": [
+                        "دیسک و صفحه کلاچ",
+                        "جلوبندی و تعلیق",
+                        "چراغ خودرو",
+                        "تسمه خودرو",
+                        "کمک فنر"
+                    ]
+                },
+                {
+                    "id": "3005",
+                    "title": "لوازم مصرفی خودرو و موتورسیکلت",
+                    "data": [
+                        "لاستیک و تایر",
+                        "لنت ترمز",
+                        "روغن موتور و ضد یخ",
+                        "مکمل سوخت و روغن و انواع فیلتر"
+                    ]
+                },
+                {
+                    "id": "3006",
+                    "title": "ابزار برقی",
+                    "data": [
+                        "دریل، پیچ گوشتی برقی و شارژی",
+                        "فرز و سنگ رومیزی",
+                        "موتور برق",
+                        "مکنده و دمنده",
+                        "کارواش",
+                        "کمپرسور و جک خودرو",
+                        "ابزار همه کاره برقی و شارژی"
+                    ]
+                },
+                {
+                    "id": "3007",
+                    "title": "ابزار غیر برقی",
+                    "data": [
+                        "ابزار دستی",
+                        "مجموعه ابزار",
+                        "نردبان",
+                        "پیچ گوشتی و فازمتر",
+                        "نظم دهنده ابزار",
+                        "متر، تراز، اندازه‌گیری دقیق",
+                        "چسب صنعتی",
+                        "لوازم روانکاری"
+                    ]
+                },
+                {
+                    "id": "3008",
+                    "title": "لوازم و یراق آلات ساختمانی",
+                    "data": [
+                        "شیرآلات",
+                        "رنگ",
+                        "دستگیره در"
+                    ]
+                },
+                {
+                    "id": "3009",
+                    "title": "لوازم باغبانی",
+                    "data": [
+                        "قیچی‌، چاقو و ابزار باغبانی",
+                        "بذر و تخم گیاهان",
+                        "تبر، بیل و کلنگ",
+                        "خاک، کود و آفت کش"
+                    ]
+                },
+                {
+                    "id": "3010",
+                    "title": "نور و روشنایی",
+                    "data": [
+                        "لوسترو آباژور",
+                        "لامپ",
+                        "چندراهی برق و محافظ ولتاژ"
+                    ]
+                }
+            ]
+        }
+    ],
+    "filterTitle": [
+        {
+            "id": 1,
+            "title": "دسته‌بندی",
+            "icon": "",
+            "switchBtn": ""
+        },
+        {
+            "id": 2,
+            "title": "برند",
+            "icon": "",
+            "switchBtn": ""
+        },
+        {
+            "id": 3,
+            "title": "خدمات دیجی‌پلاس",
+            "icon": "https://img.icons8.com/ios/50/ad349d/sparkling.png",
+            "switchBtn": ""
+        },
+        {
+            "id": 4,
+            "title": "فقط سوپرمارکتی",
+            "icon": "https://img.icons8.com/ios/50/3daa16/truck.png",
+            "switchBtn": "yes"
+        },
+        {
+            "id": 5,
+            "title": "ارسال فروشنده",
+            "icon": "https://img.icons8.com/external-nawicon-detailed-outline-nawicon/64/ffba3a/external-postman-delivery-nawicon-detailed-outline-nawicon.png",
+            "switchBtn": "yes"
+        },
+        {
+            "id": 6,
+            "title": "محدوده قیمت",
+            "icon": "",
+            "switchBtn": ""
+        },
+        {
+            "id": 7,
+            "title": "فقط کالاهای موجود",
+            "icon": "",
+            "switchBtn": "yes"
+        },
+        {
+            "id": 8,
+            "title": "فقط کالاهای موجود در انبار",
+            "icon": "",
+            "switchBtn": "yes"
+        },
+        {
+            "id": 9,
+            "title": "نوع فروشنده",
+            "icon": "",
+            "switchBtn": ""
+        }
+    ],
+    "menuList": [
+        {
+            "id": 1,
+            "data": [
+                {
+                    "id": 1,
+                    "title": "همه کالاها",
+                    "data": []
+                },
+                {
+                    "id": 2,
+                    "title": "کالاهای سوپرمارکتی",
+                    "data": [
+                        {
+                            "id": 1,
+                            "title": "کنسرو و غذاهای آماده",
+                            "data": [
+                                "کمپوت",
+                                "غذای نیمه آماده",
+                                "کنسرو ماهی",
+                                "غذای آماده"
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "title": "خشکبار و شیرینی",
+                            "data": [
+                                "شیرینی",
+                                "خرما",
+                                "آجیل",
+                                "میوه خشک",
+                                "گز",
+                                "سوهان"
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "title": "تنقلات",
+                            "data": [
+                                "تافی و آبنبات",
+                                "پفک و اسنک",
+                                "پاستیل",
+                                "آدامس",
+                                "کیک و کلوچه",
+                                "چیپس و پاپکورن"
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "title": "کالاهای اساسی و خواروبار",
+                            "data": []
+                        },
+                        {
+                            "id": 5,
+                            "title": "نوشیدنی‌های سرد",
+                            "data": []
+                        },
+                        {
+                            "id": 6,
+                            "title": "صبحانه",
+                            "data": []
+                        },
+                        {
+                            "id": 7,
+                            "title": "لبنیات",
+                            "data": []
+                        },
+                        {
+                            "id": 8,
+                            "title": "میوه و سبزیجات",
+                            "data": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "data": [
+                {
+                    "item1": "کاله",
+                    "item2": "Kalleh"
+                },
+                {
+                    "item1": "چی‌توز",
+                    "item2": "Cheetoz"
+                },
+                {
+                    "item1": "زرماکارون",
+                    "item2": "Zar Macaron"
+                },
+                {
+                    "item1": "گلرنگ",
+                    "item2": "Golrang"
+                },
+                {
+                    "item1": "گلستان",
+                    "item2": "Golestan"
+                },
+                {
+                    "item1": "تافته",
+                    "item2": "Tafteh"
+                },
+                {
+                    "item1": "اکتیو",
+                    "item2": "Active"
+                },
+                {
+                    "item1": "میهن",
+                    "item2": "Mihan"
+                },
+                {
+                    "item1": "مای",
+                    "item2": "My"
+                },
+                {
+                    "item1": "کیان",
+                    "item2": "Kian"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "data": [
+                {
+                    "item1": "کالاهای دارای هدیه نقدی",
+                    "icon": "https://img.icons8.com/ios/100/ad349d/refund.png"
+                },
+                {
+                    "item1": "ارسال فوری",
+                    "icon": "https://img.icons8.com/windows/32/ad349d/launched-rocket.png"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "data": []
+        },
+        {
+            "id": 9,
+            "data": [
+                {
+                    "item1": "فروشنده رسمی"
+                },
+                {
+                    "item1": "فروشنده برگزیده"
+                },
+                {
+                    "item1": "دیجی‌کالا"
+                },
+                {
+                    "item1": "کسب و کارهای بومی"
+                }
+            ]
+        }
+    ]
+}

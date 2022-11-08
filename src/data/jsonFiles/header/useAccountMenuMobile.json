@@ -1,0 +1,38 @@
+[
+    {
+        "title": "سفارش‌ها",
+        "icon": "images/userAccount/shopping-bag.png"
+    },
+    {
+        "title": "لیست‌های من",
+        "icon": "images/userAccount/heart.png"
+    },
+    {
+        "title": "دیدگاه‌ها",
+        "icon": "images/userAccount/topic.png"
+    },
+    {
+        "title": "آدرس‌ها",
+        "icon": "https://img.icons8.com/ios/50/000000/address--v1.png"
+    },
+    {
+        "title": "کارت‌های هدیه",
+        "icon": "https://img.icons8.com/ios/50/000000/gift-card.png"
+    },
+    {
+        "title": "پیغام‌ها",
+        "icon": "https://img.icons8.com/sf-regular/96/000000/bell.png"
+    },
+    {
+        "title": "بازدیدهای اخیر",
+        "icon": "https://img.icons8.com/ios/50/000000/clock--v1.png"
+    },
+    {
+        "title": "اطلاعات حساب کاربری",
+        "icon": "https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/24/000000/external-user-user-tanah-basah-basic-outline-tanah-basah-7.png"
+    },
+    {
+        "title": "خروج",
+        "icon": "images/userAccount/exit.png"
+    }
+]

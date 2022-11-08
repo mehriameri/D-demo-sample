@@ -1,0 +1,30 @@
+[
+    {
+        "title": " دیجی کالا جت",
+        "img": "images/digiPart/digikalajet.png"
+    },
+    {
+        "title": "قرعه کشی آیفون 13",
+        "img": "images/digiPart/balloting.png"
+    },
+    {
+        "title": " دیجی پی",
+        "img": "images/digiPart/digipay.png"
+    },
+    {
+        "title": "مهربانی در مهر",
+        "img": "images/digiPart/kindness.png"
+    },
+    {
+        "title": "بازگشت به مدرسه",
+        "img": "images/digiPart/school.png"
+    },
+    {
+        "title": "روز سامسونگ",
+        "img": "images/digiPart/samsong.png"
+    },
+    {
+        "title": "ماموریت ها",
+        "img": "images/digiPart/mission.png"
+    }
+]

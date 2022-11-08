@@ -1,0 +1,32 @@
+[
+    {
+        "text": "سوپرمارکت",
+        "icon": " https://img.icons8.com/ios/50/000000/ingredients.png",
+        "path": "product"
+    },
+    {
+        "text": "پرفروش ترین‌ها",
+        "icon": "https://img.icons8.com/windows/32/000000/fire-element.png",
+        "path": "/"
+    },
+    {
+        "text": "تخفیف‌ها و پیشنهادها",
+        "icon": "https://img.icons8.com/external-anggara-basic-outline-anggara-putra/24/000000/external-percentage-business-and-finance-anggara-basic-outline-anggara-putra-2.png",
+        "path": "/"
+    },
+    {
+        "text": "شگفت انگیزها",
+        "icon": "https://img.icons8.com/external-others-zufarizal-robiyanto/64/000000/external-gift-mutuline-shopping-others-zufarizal-robiyanto-2.png",
+        "path": "/"
+    },
+    {
+        "text": "سوالی دارید؟",
+        "icon": "https://img.icons8.com/external-anggara-basic-outline-anggara-putra/24/000000/external-faq-social-media-interface-anggara-basic-outline-anggara-putra.png",
+        "path": "/"
+    },
+    {
+        "text": "فروشنده شوید",
+        "icon": "https://img.icons8.com/windows/32/000000/store-front.png",
+        "path": "/"
+    }
+]
