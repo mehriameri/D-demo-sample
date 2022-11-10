@@ -12,8 +12,8 @@ const ProductsGrid = () => {
     const [searchParams, setSearchParams] = useSearchParams();
     const sortType = searchParams.get('sort')
     const { data: productsInfo } = useFetch({
-        url: `http://localhost:8000/products?${id ? `category=${id}` : ''}${sortType ? `&_sort=${sortType}&_order=DESC` : ''}`
-        , dependency: [sortType, id]
+        url: `http://localhost:8000/products?${id ? `category=${id}` : ''}${sortType ? `&_sort=${sortType}&_order=DESC` : ''}`,
+        dependency: [sortType, id]
     });
     const sortHandler = (sortBy, title) => {
         setSortName(title);

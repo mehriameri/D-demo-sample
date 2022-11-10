@@ -5,6 +5,7 @@ import { PersistGate } from 'redux-persist/integration/react';
 import { persistStore } from 'redux-persist';
 import Store from './redux/store/Store';
 import Spinner from './components/shared/UI/Spinner/Spinner';
+import ProfilePage from './components/profilePage/sidebar';
 
 let persistor = persistStore(Store);
 const HomePage = lazy(() => import('./components/homePage'));
@@ -21,6 +22,8 @@ function App() {
           <Route path='/product' element={<Suspense fallback={<Spinner />}><ProductPage /></Suspense>} />
           <Route path='/product/:id' element={<Suspense fallback={<Spinner />}><ProductPage /></Suspense>} />
           <Route path='/checkout' element={<Suspense><CheckoutPage /></Suspense>} />
+          <Route path='/profile/:profileDetail' element={<Suspense><ProfilePage /></Suspense>} />
+          <Route path='/profile' element={<Suspense><ProfilePage /></Suspense>} />
         </Routes>
       </PersistGate>
     </Provider>

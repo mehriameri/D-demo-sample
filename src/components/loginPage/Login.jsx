@@ -61,8 +61,8 @@ const Login = () => {
     }, [mobileValidationError]);
     return (
         <>
-            {step === 1 ?
-                <div className='w-full flex flex-col justify-center items-center fixed inset-0'>
+            {step === 1
+                ? <div className='w-full flex flex-col justify-center items-center fixed inset-0'>
                     <div className='w-full lg:border-2 border-gray-200 rounded-xl p-6' style={{ maxWidth: 400 }}>
                         <Logo className='mx-auto p-2' />
                         <h1 className='font-bold text-lg py-2'>ورود | ثبت نام</h1>
@@ -95,8 +95,7 @@ const Login = () => {
                         </p>
                     </div>
                 </div>
-                :
-                <CheckValidity setStep={setStep} phoneNumber={inputValue} />
+                : <CheckValidity setStep={setStep} phoneNumber={inputValue} />
             }
         </>
     )

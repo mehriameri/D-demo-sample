@@ -18,8 +18,6 @@ const Navbar = () => {
     const toggleDropDown = useSelector(state => state.toggleDropDown);
     const navigate = useNavigate();
     const userAccountMenuRef = useRef();
-    const openUserAccountMenuHandler = () => { setShowUserAccountMenu(true) }
-    const shoppingBasketHandler = () => { navigate('/checkout') }
     return (
         <div className='flex justify-between bg-white border-b border-b-gray-300 sticky top-0 z-50 p-3'>
             <div className='flex gap-4 w-3/5'>
@@ -32,7 +30,7 @@ const Navbar = () => {
             <div className='flex gap-4 items-center text-xs font-semibold px-2'>
                 <div className='relative'>
                     {isAuth.user != null
-                        ? <AuthBtn openUserAccountMenu={openUserAccountMenuHandler} />
+                        ? <AuthBtn openUserAccountMenu={() => setShowUserAccountMenu(true)} />
                         : <EntranceBtn className='bg-white border rounded-lg py-2 px-4'
                             text={'ورود | ثبت نام'}
                             click={() => navigate('/login')}
@@ -43,7 +41,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <span className='text-2xl text-gray-300 font-thin'>|</span>
-                <div className='cursor-pointer' onClick={shoppingBasketHandler}>
+                <div className='cursor-pointer' onClick={() => navigate('/checkout')}>
                     <ShoppingBasketIcon className="w-6 h-6 relative" />
                     {totalBasketItem.shoppingBasket.length > 0 && <span className='absolute bottom-2 left-3 bg-red-500 rounded-md text-white text-[10px] py-0.5 px-1.5'>{totalBasketItem.totalquantity}</span>}
                 </div>

@@ -12,7 +12,7 @@ const ProductsGridMobile = () => {
     const [showSortMenu, setShowSortMenu] = useState(false);
     const [showFilterMenu, setShowFilterMenu] = useState(false);
     const [sortName, setSortName] = useState('پربازدیدترین');
-    const { isMobile, isDesktop } = useDeviceType();
+    const { isMobile } = useDeviceType();
     const { id } = useParams();
     const [searchParams, setSearchParams] = useSearchParams();
     const sortType = searchParams.get('sort');
@@ -61,9 +61,9 @@ const ProductsGridMobile = () => {
             <div className='grid md:grid-cols-3 sm:grid-cols-2 grid-flow-row'>
                 {productsInfo?.map((item, index) => <ProductCard key={index} dataList={item} />)}
             </div>
-            {isMobile && showFilterMenu && 
+            {isMobile && showFilterMenu &&
                 <FilterMenu closeFilterModal={() => setShowFilterMenu(false)} />
-           }
+            }
             <div className={`${showSortMenu ? 'bg-black opacity-40 fixed inset-0 z-10' : ''}`}></div>
         </>
     )
