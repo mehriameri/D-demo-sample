@@ -6,7 +6,7 @@ Click the demo link or clone/download the repository on your local machine. \
 Install dependencies\
 npm install\
 npm run server\
-npm start\
+npm start
 ### `Built With:`
 •	React js\
 •	React Router\
@@ -14,5 +14,5 @@ npm start\
 •	Redux\
 •	Redux-Persist\
 •	Json server as fake API\
-•	Tailwind Css\
+•	Tailwind Css
  
