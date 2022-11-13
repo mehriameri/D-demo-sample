@@ -13,6 +13,6 @@ npm start
 •	React Hooks\
 •	Redux\
 •	Redux-Persist\
-•	Json server as fake API\
+•	Json server as a fake API\
 •	Tailwind Css
  
