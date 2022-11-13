@@ -4,11 +4,11 @@ import Footer from "./footer/Footer";
 import Header from './header/Header';
 
 const MainLayout = ({ children, hasFooter = true }) => {
-    const { toggleDropDown } = useSelector(state => state.toggleDropDown);
+    const { dropDownState } = useSelector(state => state.toggleDropDown);
     return (
         <>
             <Header />
-            <div className={`${toggleDropDown ? 'opacity-40 bg-black' : ''}`}>
+            <div className={`${dropDownState ? 'opacity-40 bg-black' : ''}`}>
                 {children}
             </div>
             {hasFooter && <Footer />}

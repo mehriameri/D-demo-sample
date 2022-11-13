@@ -1,0 +1,27 @@
+[
+    {
+        "name": "سفارش های من",
+        "icon": "https://img.icons8.com/ios/50/null/shopping-bag--v1.png",
+        "path": "/profile/shopping-history"
+    },
+    {
+        "name": "آدرس های من",
+        "icon": "https://img.icons8.com/ios/50/null/order-delivered.png",
+        "path": "/profile/address"
+    },
+    {
+        "name": "پیام های من",
+        "icon": "https://img.icons8.com/ios/50/null/appointment-reminders--v1.png",
+        "path": "/profile/message"
+    },
+    {
+        "name": "کدهای تخفیف من",
+        "icon": "https://img.icons8.com/ios/50/null/packaging.png",
+        "path": "/profile/discounts"
+    },
+    {
+        "name": "تماس با پشتیبانی",
+        "icon": "https://img.icons8.com/external-nawicon-detailed-outline-nawicon/64/null/external-call-center-communication-nawicon-detailed-outline-nawicon.png",
+        "path": "/profile/support"
+    }
+]

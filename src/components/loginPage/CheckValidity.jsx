@@ -73,10 +73,7 @@ const CheckValidity = ({ setStep, phoneNumber }) => {
                 {showModalError && <ModalError />}
             </div>
             <div className='w-full flex flex-col justify-center items-center fixed inset-0 z-10'>
-                <div
-                    className='w-full lg:border-2 border-gray-200 rounded-xl p-6'
-                    style={{ maxWidth: 400 }}
-                >
+                <div className='w-full lg:border-2 border-gray-200 rounded-xl p-6' style={{ maxWidth: 400 }}>
                     {isDesktop && <div className='flex items-center py-2'>
                         <ArrowRightIcon className="w-6 h-6 cursor-pointer" click={() => setStep(1)} />
                         <Logo className='mx-auto' />

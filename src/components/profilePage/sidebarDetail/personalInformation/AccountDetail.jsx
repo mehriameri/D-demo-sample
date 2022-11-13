@@ -1,11 +1,11 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import { Form, Formik, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import TitlesidebarDetail from '../TitleSidebarDetail';
 import EditGenderBtn from './EditGenderBtn';
 import TextError from './TextError';
 import { UserIcon } from '../../../shared/UI/Icons';
-import { useSelector } from 'react-redux';
 
 const initialValues = {
     firstName: '',
@@ -26,64 +26,33 @@ const onSubmit = values => {
 }
 const AccountDetail = () => {
     const isAuth = useSelector(state => state.userInfo);
+    const list = [
+        { nameId: 'firstName', type: 'text', labelText: 'نام' },
+        { nameId: 'lastName', type: 'text', labelText: 'نام و نام خانوادگی' },
+        { nameId: 'date', type: 'text', labelText: 'تاریخ تولد' },
+        { nameId: 'email', type: 'email', labelText: 'ایمیل' }
+    ]
     return (
         <>
             <TitlesidebarDetail title='مشخصات حساب کاربری' />
             <div className='flex items-center pb-4'>
-                <UserIcon className="text-gray-600 bg-gray-100 h-6 w-6 ml-2 rounded-full " />
-                <p>{isAuth.user.phoneNumber}</p>
+                <UserIcon className="text-gray-600 bg-gray-200 h-8 w-8 ml-2 rounded-full" />
+                <p className='text-gray-500'>{isAuth.user.phoneNumber}</p>
             </div>
-            <Formik
-                initialValues={initialValues}
-                validationSchema={validationSchema}
-                onSubmit={onSubmit}
-            >
-                <Form >
-                    <div className='flex flex-grow w-full gap-2 py-5 h-32'>
-                        <div className='flex flex-col w-1/2' >
-                            <label className='bg-white text-sm font-bold text-gray-500 px-2' htmlFor='firstName'>نام</label>
+            <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={onSubmit} >
+                <Form>
+                    <div className='grid grid-cols-2 grid-flow-row gap-2'>
+                        {list.map((item, index) => <div className='flex flex-col w-full py-4 h-32' key={index}>
+                            <label className='bg-white text-sm font-bold text-gray-500 px-2' htmlFor={item.nameId}>{item.labelText}</label>
                             <Field
                                 className='border rounded-lg outline-none p-3'
-                                type='text'
-                                name='firstName'
-                                placeholder='نام'
+                                type={item.type}
+                                name={item.nameId}
+                                placeholder={item.labelText}
                             />
-                            <ErrorMessage name='firstName' component={TextError} />
-                        </div>
-                        <div className='flex flex-col w-1/2'>
-                            <label className='bg-white text-sm font-bold text-gray-500 px-2' htmlFor='lasttName'>نام خانوادگی</label>
-                            <Field
-                                className='border rounded-lg outline-none p-3'
-                                type='text'
-                                name='lastName'
-                                placeholder='نام خانوادگی'
-                            />
-                            <ErrorMessage name='lastName' component={TextError} />
-                        </div>
+                            <ErrorMessage name={item.nameId} component={TextError} />
+                        </div>)}
                     </div>
-                    <div className='flex flex-grow w-full gap-2 py-5 h-32'>
-                        <div className='flex flex-col w-1/2' >
-                            <label className='bg-white text-sm font-bold text-gray-500 px-2' htmlFor='date'>تاریخ تولد</label>
-                            <Field
-                                className='border rounded-lg outline-none p-3'
-                                type='text'
-                                name='date'
-                                placeholder='تاریخ تولد'
-                            />
-                            <ErrorMessage name='date' component={TextError} />
-                        </div>
-                        <div className='flex flex-col w-1/2' >
-                            <label className='bg-white text-sm font-bold text-gray-500 px-2' htmlFor='email'>ایمیل</label>
-                            <Field
-                                className='border rounded-lg outline-none p-3'
-                                type='email'
-                                name='email'
-                                placeholder='آدرس ایمیل'
-                            />
-                            <ErrorMessage name='email' component={TextError} />
-                        </div>
-                    </div>
-
                     <div className='flex w-1/2'>
                         <EditGenderBtn gender='خانم' icon={<UserIcon className="h-6 w-6" />} />
                         <EditGenderBtn gender='آقا' icon={<UserIcon className="h-6 w-6" />} />

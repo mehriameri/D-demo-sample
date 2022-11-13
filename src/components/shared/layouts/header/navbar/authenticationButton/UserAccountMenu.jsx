@@ -13,9 +13,12 @@ const UserAccountMenu = ({ setShowUserAccountMenu }) => {
     const navigate = useNavigate();
     const dispatch = useDispatch();
     const clickHandler = (title) => {
+        setShowUserAccountMenu(false);
+        navigate('/profile/account');
         if (title == 'خروج از حساب کاربری') {
             dispatch(resetShoppingBasket());
             dispatch(resetLogin());
+            navigate('/')
         }
     }
     return (
@@ -25,11 +28,7 @@ const UserAccountMenu = ({ setShowUserAccountMenu }) => {
                 key={index}
                 title={item.title}
                 icon={item.icon}
-                click={() => {
-                    clickHandler(item.title)
-                    setShowUserAccountMenu(false)
-                    navigate('/profile/account')
-                }}
+                click={() => clickHandler(item.title)}
             />)}
         </div>
     )
