@@ -1,4 +1,4 @@
-### `Demo of Digikala Website`
+### `Demo of Website`
 ![](https://github.com/mehriameri/Digikala-with-React/blob/4bbef3d213808de4f46e5270de424ceca682c59f/demo%20Digikala%20website.gif)
 
 ### `Getting Started`
@@ -8,11 +8,11 @@ npm install\
 npm run server\
 npm start
 ### `Built With:`
-•	React js\
-•	React Router\
-•	React Hooks\
-•	Redux\
-•	Redux-Persist\
-•	Json server as a fake API\
-•	Tailwind Css
+â€¢	React js\
+â€¢	React Router\
+â€¢	React Hooks\
+â€¢	Redux\
+â€¢	Redux-Persist\
+â€¢	Json server as a fake API\
+â€¢	Tailwind Css
 
